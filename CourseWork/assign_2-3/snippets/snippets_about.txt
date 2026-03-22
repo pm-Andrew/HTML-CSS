@@ -1,0 +1,31 @@
+This snippets file is for Assignment 3.
+It's the text for the about.html page.
+
+Page Title Tag Text
+===================
+About - Pizza Around Clark County, Washington
+
+Header h1 Text
+==============
+Pizza Around Clark County, Washington
+
+Header Navigation Links within an Unordered List
+================================================
+Text: Home 
+Link: pizza.html
+Text: about
+Link: about.html
+
+Section h2
+==========
+About Us
+
+Section Paragraphs. Each paragraph is on a new line below.
+==========================================================
+This page is currently being baked.
+
+It should be ready soon.
+
+Footer Paragraph Text (don't forget the copyright HTML entity)
+==============================================================
+2024 by Clark College CTEC 122 Student Your Name Goes Here

@@ -1,0 +1,530 @@
+/* style.css Fall 2023 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body, html {
+    font-family: 'Roboto', Arial, sans-serif;
+    width: 95%;
+    max-width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #333333;
+}
+
+header {
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+    background-color: #E3CCB5;
+    color: #8B5A2B;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 1em;
+    font-size: 5em;
+    color: #333333;
+    border-bottom: 1px solid #FDFDF8;
+}
+
+nav ul {
+    padding: 1%;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 1.325em;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    border-bottom: 1px solid #333333;
+}
+
+p {
+    height: auto;
+    width: 75%;
+    padding: 5px 1em 25px 0;
+    margin: 0;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+main {
+    width: 60%;
+    /* height: 1000px; */
+    padding-bottom: 102px;
+    margin: 0 auto;
+    float: right;
+    background-color: #FDFDF8;
+}
+
+.hero {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto 1em;
+    background-color: #A0B89E;
+    text-align: center;
+}
+
+#helens {
+    width: 75%;
+    height: auto;
+    max-width: 100%;
+    margin: 1em 0;
+    padding: 10px;
+}
+
+#flex-fix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0 auto;
+    padding: 1.5em 0 .5em 0;
+    border-bottom: none;
+}
+
+.hero p {
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 20px 1em 35px 1em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.hero-cta {
+    width: 20%;
+    height: 5%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 35px;
+    box-shadow: 1px 2px 5px 2px #333333;
+    background-color: #E3CCB5;
+    font-size: 1em;
+}
+
+.mission {
+    height: auto;
+    width: auto;
+    margin-left: 1em;
+}
+
+.mission h2 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.main-cta {
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
+    padding: 10px 1.25em 10px 1.25em;
+    border-radius: 35px;
+    box-shadow: 1px 2px 5px 2px #333333;
+    background-color: #A0B89E;
+    text-align: center;
+}
+
+.services {
+    padding: 15px 10px 102px 0;
+    margin-left: 1em;
+    line-height: 1.5;
+}
+
+.services ul {
+    padding-bottom: 10px;
+}
+
+.aside-gallery {
+    /*--Services Page--*/
+    height: 75vh;
+    margin-top: 25px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.services-page ul {
+    /*--Services Page--*/
+    margin: 0;
+    list-style: circle;
+    list-style-position: outside;
+}
+
+/* End of Main /// Start of Aside */
+aside {
+    width: 39.9%;
+    margin: 0 auto;
+    padding-bottom: 302px;
+    float: left;
+    background-color: #025159;
+    border-right: 1px solid #333333;
+}
+
+aside p {
+    padding: 25px 0;
+    color: #333333;
+}
+
+.about {
+    padding: 1em 2em 5em 2em;
+    background-color: #E3CCB5;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #025159;
+}
+
+.about-content h2 {
+    /*--About Page--*/
+    margin: 0;
+    padding: 5px 15px;
+    background-color: #E3CCB5;
+    border: 2px solid #025159;
+}
+
+.about-content p {
+    /*--About Page--*/
+    padding-left: 15px;
+    line-height: 1.25;
+}
+
+.about-content li {
+    line-height: 1.5;
+}
+
+.services-contact {
+    /*--Services Page--*/
+    padding: 2px 5px 50px 15px;
+}
+
+.aside-services h2, .aside-about h2 {
+    /*--Services Page--*/
+    padding-bottom: 25px;
+    text-align: left;
+    font-size: 1.75em;
+    font-weight: 700;
+    border-bottom: none;
+}
+
+.aside-bar {
+    /*--Services Page--*/
+    padding-bottom: 25px;
+    padding-left: 15px;
+    color: #E3CCB5;
+}
+
+.aside-cta {
+    /*--Services Page--*/
+    margin-left: 200px;
+    padding: 15px;
+    border-radius: 35px;
+    box-shadow: 1px 2px 5px 2px #333333;
+    background-color: #FDFDF8;
+    text-align: center;
+}
+
+#om-logo {
+    width: 50%;
+    margin: 1.25em 6.5em;
+    border: 3px solid #333333;
+}
+
+#tagline {
+    color: #E3CCB5;
+    font-size: 2em;
+    font-weight: 500;
+    border-bottom: none;
+}
+
+.aside-services #tagline, .aside-about #tagline {
+    /*--Services Page--*/
+    width: 90%;
+    padding-left: 15px;
+    border-bottom: none;
+}
+
+.aside-empty {
+    /*--Services Page--*/
+    height: 129.75vh;
+}
+
+#aside-empty-boot {
+    /*--About Page--*/
+    height: 522px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #E3CCB5;
+    clear: both;
+    text-align: center;
+}
+
+footer nav {
+    display: inline-block;
+}
+
+footer nav ul {
+    margin-left: 1em;
+    padding: 15px;
+}
+
+footer nav li {
+    width: auto;
+    margin: 0;
+    padding-left: 1em;
+}
+
+footer p {
+    width: 30%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* LoVHA */
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+/* Contact Form CSS */
+#form {
+    margin-left: 10px;
+    padding-bottom: 23px;
+}
+
+.field {
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.formlabel {
+    margin-bottom: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+input[type="text"], input[type="email"] {
+    font-size: 16px;
+    padding: 8px 10px 8px 10px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border: 1px solid #333333
+}
+
+input[type="radio"] {
+    margin-bottom: 8px;
+}
+
+input[type="submit"], input[type="reset"] {
+    margin-right: 16px;
+    background-color: #025159;
+    color: #FDFDF8;
+    padding: 8px 20px 8px 20px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    box-shadow: 8px 8px 8px #dadada;
+}
+
+input[type="submit"]:focus, input[type="reset"]:focus {
+    box-shadow: 8px 8px 8px #dadada;
+}
+
+select {
+    font-size: 14px;
+}
+
+legend {
+    margin-left: -18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Feel free to modify the breakpoints provided or add your own additional ones */
+
+/* < 576px (extra small viewports) */
+@media screen and (max-width:575px) {
+    main, aside, header, footer {
+        width: 100vw;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .hero {
+        padding: 0 28px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    footer nav ul {
+        margin: 0 auto;
+    }
+
+    footer p {
+        margin: 0 auto;
+    }
+}
+
+/* >= 576px and <= 767px (small viewports) */
+@media screen and (min-width:576px) and (max-width:767px) {
+    main, aside, header, footer {
+        width: 100vw;
+        height: 100%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    header h1 {
+        font-size: 4em;
+    }
+
+    #form h2 {
+        margin-top: 0;
+    }
+
+    .hero {
+        padding: 0 38px;
+    }
+
+    #om-logo, .aside-about #om-logo {
+        margin: 20px 135px;
+    }
+
+    #tagline, .aside-about #tagline {
+        font-size: 1.65em;
+        font-weight: 600;
+    }
+
+    footer nav ul {
+        margin: 0 auto;
+    }
+
+    footer p {
+        margin: 0 auto;
+    }
+
+    /*--Services Page--*/
+    .aside-bar {
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
+
+    .aside-bar {
+        margin: 0 1em;
+    }
+
+    .aside-services h2 {
+        margin-top: 0;
+    }
+}
+
+/* >= 768px and <= 991px (medium viewports) */
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    aside {
+        padding-bottom: 413px;
+    }
+
+    /* p {
+        font-weight: 600;
+    } */
+
+    .hero {
+        width: 54vw;
+    }
+
+    .about {
+        padding-bottom: 2em;
+    }
+
+    #tagline {
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+
+    footer {
+        padding-top: 1em;
+    }
+
+    footer nav ul {
+        margin: 0 auto;
+    }
+
+    footer p {
+        margin: 0 auto;
+    }
+
+    /*--Services Page--*/
+    .aside-bar {
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
+
+    .aside-bar {
+        margin: 0 1em;
+    }
+
+    .aside-services #om-logo, .aside-about #om-logo, .aside-contact #om-logo {
+        margin: 1em 4em;
+    }
+}
+
+/* >= 992px and <= 1199px (large viewports) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    main {
+        padding-bottom: 98px;
+        margin: 0 auto;
+    }
+
+    .hero {
+        width: 54.125vw;
+    }
+
+    footer {
+        margin: 0 auto;
+        padding-top: 1em;
+    }
+
+    footer nav ul {
+        margin: 0 auto;
+        padding-top: 1em;
+    }
+
+    footer p {
+        margin: 0 auto;
+    }
+
+    /*--Services Page--*/
+    .aside-bar {
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
+
+    .aside-bar {
+        margin: 0 1em;
+    }
+
+}

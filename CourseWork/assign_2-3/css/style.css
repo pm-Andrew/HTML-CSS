@@ -1,0 +1,101 @@
+/* style.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8f0;
+    margin: 30px 0;
+    font-size: 1.1em;
+}
+
+/* 
+#pagewrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px #808080;
+    border-radius: 12px;
+}
+
+/* Your CSS for these assignments will go below this comment */
+
+header {
+    background-color: #e5d3bc;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #808080;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.special {
+    font-size: 2em;
+    color: #d62b00;
+    text-shadow: 4px 4px 4px #333333;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:focus {
+    margin-right: 30px;
+    color: #333333;
+    font-size: 1.5em;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+}
+
+#hero_img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px #808080;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+blockquote {
+    padding: 20px;
+    border-top: 10px solid #d62b00;
+    border-bottom: 1px solid #d62b00;
+    margin: 0;
+    background: #e5d3bc;
+}
+
+blockquote div {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+cite {
+    font-weight: normal;
+}
+
+footer {
+    margin: 60px 0 30px 0;
+    text-align: center;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    background-color: #666202;
+    color: white;
+    box-shadow: 0 0 10px #808080;
+}

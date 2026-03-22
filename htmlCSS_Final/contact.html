@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact | OutdoorMantra</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="form">
+            <h2>Please Fill in all Items</h2>
+            <form action="http://ctec.clark.edu/CTEC122/scripts/form_echo.php" method="POST">
+                <div class="field">
+                    <label for="first" class="formlabel">First Name</label><br>
+                    <input type="text" id="first" autofocus name="first" size="30" required><br>
+                </div>
+
+                <div class="field">
+                    <label for="last" class="formlabel">Last Name</label><br>
+                    <input type="text" id="last" name="last" size="30" required><br>
+                </div>
+
+                <div class="field">
+                    <label for="email" class="formlabel">Email</label><br>
+                    <input type="email" id="email" name="email" size="30" required><br>
+                </div>
+                <!--- select control -->
+                <div class="field">
+                    <label for="state" class="formlabel">State</label><br>
+                    <select id="state" name="state">
+                        <option value="">--Please Select--</option>
+                        <option value="California">California</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Montana">Montana</option>
+                        <option value="Oregon">Oregon</option>
+                        <option value="Washington">Washington</option>
+                    </select>
+                </div>
+                <!--- here add radio buttons -->
+                <div class="field">
+                    <fieldset>
+                        <legend>Select a Services you are interested in? </legend>
+                        <input type="radio" id="web-design" name="service" value="Website Design & Development" required>
+                        <label for="web-design">Website Design & Development</label>
+                        <br>
+                        <input type="radio" id="branding" name="service" value="Branding & Identity Design">
+                        <label for="branding">Branding & Identity Design</label>
+                        <br>
+                        <input type="radio" id="content-marketing" name="service" value="Content Marketing Integration">
+                        <label for="content-marketing">Content Marketing Integration</label>
+                        <br>
+                        <input type="radio" id="maintenance" name="service" value="Maintenance & Support">
+                        <label for="maintenance">Maintenance & Support</label>
+                    </fieldset>
+                </div>
+                <!--- reset button -->
+                <div class="field">
+                    <input type="submit" value="Save">
+                    <input type="reset" value="Rest">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <aside>
+        <section id="flex-fix">
+            <img src="images/outdoormantra-logo-rough.png" alt="Logo with mountains in the background with a network spread around" title="OutdoorMantra Logo" id="om-logo">
+            <h2 id="tagline">
+                "Purpose-Driven Design for Every Brand"
+            </h2>
+        </section>
+    </aside>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <p>
+            <strong>Reach Us!</strong><br>
+            Vancouver, WA<br>
+            Phone: <a href="tel:360-555-4433">(360) 555-4433</a><br>
+            Copyright &copy; 2024 by OutdoorMantra <br>
+        </p>
+    </footer>
+</body>
+
+</html>

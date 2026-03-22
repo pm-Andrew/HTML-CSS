@@ -1,0 +1,149 @@
+/* assignment 5 - style.css */
+
+/* import Atkinson Hyperlegible font */
+/* do not remove this @import. It's used to import a font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    /* border: 2px solid red; */
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    /* margin collapse use padding for spacing (t/b) (l/r)*/
+    padding: 40px;
+    width: 1024px;
+    left: 275px;
+}
+
+header {
+    margin: auto;
+    padding: 5px;
+    border: 10px double #FFFFFF;
+    border-radius: 15px;
+    background-color: #2A5C8C;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+aside {
+    width: 384px;
+    padding: 20px;
+    margin: 0px -70px;
+    float: right;
+}
+
+aside h2 {
+    color: #2A5C8C;
+    text-align: left;
+}
+
+.time ul li {
+    list-style-type: circle;
+}
+
+.who ul {
+    list-style-type: none;
+    text-indent: 0px;
+}
+
+#smiles {
+    box-shadow: 3px 4px 5px 1px #dadada;
+    /* h-offset v-offset blur spread color */
+}
+
+main {
+    padding: 20px;
+    width: 640px;
+    margin: 0px;
+    float: left;
+}
+
+main h2 {
+    color: #000000;
+}
+
+.description p {
+    height: 155px;
+    /* Why is it this number? box model math? */
+    padding-bottom: 25px;
+    margin: 10px 15px 25px 0px;
+    text-align: left;
+}
+
+img#codelogo {
+    margin: 0px;
+    margin-right: 45px;
+    margin-left: 50px;
+    padding: 10px;
+    border: 1px solid #dadada;
+    border-radius: 50%;
+    float: right;
+}
+
+.outcome li {
+    width: 560px;
+    list-style-type: square;
+}
+
+.terms {
+    margin: 0px;
+    padding-bottom: 15px;
+    float: left;
+}
+
+.terms dt {
+    color: #2A5C8C;
+    padding: 15px;
+    font-weight: bold;
+}
+
+section .degree {
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    border-bottom: 2px solid #dadada;
+}
+
+footer {
+    height: auto;
+    width: 1024px;
+    margin: 10px 0px;
+    /* margin collapse use padding for spacing */
+    clear: both;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #dadada;
+}
+
+footer p {
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+/* LoVHA starts here */
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:active {
+    color: #2A5C8C;
+    text-decoration: underline;
+}
+
+.degree a:link {
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #000000;
+}
