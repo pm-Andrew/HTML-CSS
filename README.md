@@ -1,0 +1,3 @@
+
+## Course Description 
+Introduction to website development through mastery of HTML, HTML5, and CSS coding fundamentals for web pages. It is intended to give the student the basic skills required to hand-code web pages from scratch. A website will be developed in compliance with current web standards, practices, and usability. Topics include HTML, HTML5, CSS, web server organization and structure, code editors, accessibility, images, links, lists, responsive web design, and code validation.
