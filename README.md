@@ -9,7 +9,7 @@ responsive design, and web accessibility.
 
 | Project | Description | Key Concepts |
 | --- | --- | --- |
-| [Outdoor Mantra](./final-project/) | Mock web design agency — 4-page responsive site with contact form | Semantic HTML, responsive CSS, accessibility, form handling |
+| [Outdoor Mantra](htmlCSS_Final/) | Mock web design agency — 4-page responsive site with contact form | Semantic HTML, responsive CSS, accessibility, form handling |
 
 ## Technologies
 
