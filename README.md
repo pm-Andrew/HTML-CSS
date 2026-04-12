@@ -1,3 +1,21 @@
+# CTEC 122 – Introduction to Web Development
 
-## Course Description 
-Introduction to website development through mastery of HTML, HTML5, and CSS coding fundamentals for web pages. It is intended to give the student the basic skills required to hand-code web pages from scratch. A website will be developed in compliance with current web standards, practices, and usability. Topics include HTML, HTML5, CSS, web server organization and structure, code editors, accessibility, images, links, lists, responsive web design, and code validation.
+Clark College | Web Development Program
+
+Projects and assignments built while studying HTML5, CSS3, semantic markup,
+responsive design, and web accessibility.
+
+## Projects
+
+| Project | Description | Key Concepts |
+| --- | --- | --- |
+| [Outdoor Mantra](./final-project/) | Mock web design agency — 4-page responsive site with contact form | Semantic HTML, responsive CSS, accessibility, form handling |
+
+## Technologies
+
+- HTML5
+- CSS3
+- normalize.css
+
+---
+[github.com/pm-andrew](https://github.com/pm-andrew) · Clark College
