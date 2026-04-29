@@ -7,9 +7,15 @@ responsive design, and web accessibility.
 
 ## Projects
 
-| Project | Description | Key Concepts |
-| --- | --- | --- |
+| Project                          | Description                                                       | Key Concepts                                                |
+| -------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------- |
 | [Outdoor Mantra](htmlCSS_Final/) | Mock web design agency — 4-page responsive site with contact form | Semantic HTML, responsive CSS, accessibility, form handling |
+
+## Preview
+
+![Preview](ctec122_final.png)
+
+[Outdoor Mantra homepage](ctec122_Final.mov)
 
 ## Technologies
 
