@@ -13,7 +13,7 @@ responsive design, and web accessibility.
 
 ## Preview
 
-![Preview](ctec122_final.png)
+![Preview](/htmlCSS_Final/ctec122_final.png)
 
 [Outdoor Mantra homepage](ctec122_Final.mov)
 
